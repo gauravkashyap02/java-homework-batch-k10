@@ -4,27 +4,28 @@ int productid;
 String productName;
 double price;
 
-void discount(int discount){
-    discount -= price;
+void discount(int discountPercentage){
+double disAmount = (price * discountPercentage) / 100;
+price = price - disAmount;
 }
 
 void showResult(){
-    System.out.println("product id: "+productid)
-    System.out.println("Product name : "+productName);
-    System.out.println("product price: "+price);
-}
-
-Product(){
-    
+System.out.println("product id: "+productid);
+System.out.println("Product name : "+productName);
+System.out.println("Updated price: "+price);
 }
 
 public static void main(String[] args){
 
 Product pd = new Product();
 
-pd.discount(30.0);
+pd.productid = 101;
+pd.productName = "Aula f75 pro";
+pd.price = 7000;
 
-pd.showresult(101,"gaurav",90.90);
+pd.discount(30);
+pd.showResult();
+
 
 
 }
