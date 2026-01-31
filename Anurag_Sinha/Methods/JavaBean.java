@@ -2,16 +2,13 @@ import java.util.*;
 
 class Product {
 
-    // Private attributes
     private int id;
     private String name;
     private double price;
 
-    // No-arg constructor
     public Product() {
     }
 
-    // Getters & Setters
     public int getId() {
         return id;
     }
@@ -36,17 +33,16 @@ class Product {
         this.price = price;
     }
 
-    // Main method with user input
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
 
-        Product p = new Product(); // JavaBean object
+        Product p = new Product();
 
         System.out.print("Enter Product ID: ");
         p.setId(sc.nextInt());
 
-        sc.nextLine(); // buffer clear
+        sc.nextLine();
 
         System.out.print("Enter Product Name: ");
         p.setName(sc.nextLine());
@@ -54,7 +50,6 @@ class Product {
         System.out.print("Enter Product Price: ");
         p.setPrice(sc.nextDouble());
 
-        // Display using getters
         System.out.println("\n--- Product Details ---");
         System.out.println("ID: " + p.getId());
         System.out.println("Name: " + p.getName());
