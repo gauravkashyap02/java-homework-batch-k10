@@ -1,4 +1,4 @@
-import java.util.Scanner;
+import java.util.*;
 
 class Student {
 
@@ -21,7 +21,7 @@ class Student {
         return marks>=40;
     }
 
-    public static void main(String[] args){
+    static void main(){
         Student student=new Student();
 
         Scanner sc=new Scanner(System.in);
