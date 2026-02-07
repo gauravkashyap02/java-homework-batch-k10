@@ -1,11 +1,11 @@
-public class BankAccount {
+    public class BankAccount {
     int balance = 7000;
 
     void display(){
         System.out.println("Initial Balance: " +balance);
+     }
     }
-}
-class SaveAccount extends BankAccount{
+    class SaveAccount extends BankAccount{
 
     void deposit(int amount){
         System.out.println("Deposited: " +amount);
@@ -19,5 +19,5 @@ class SaveAccount extends BankAccount{
         SaveAccount sa = new SaveAccount();
         sa.display();
         sa.deposit(3000);
+     }
     }
-}

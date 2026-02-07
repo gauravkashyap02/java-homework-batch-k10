@@ -1,11 +1,11 @@
-public class Device {
+    public class Device {
     String DeviceName = "Samsung Galaxy";
 
     void showInfo(){
         System.out.println("Device Name: " +DeviceName);
     }
-}
-class Mobile extends Device{
+    }
+    class Mobile extends Device{
     String os = "Andriod";
 
     void showInfo(){
@@ -17,4 +17,4 @@ class Mobile extends Device{
         Mobile m = new Mobile();
         m.showInfo();
     }
-}
+    }

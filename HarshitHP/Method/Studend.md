@@ -1,4 +1,4 @@
-public class Student {
+    public class Student {
 
     String name;
     int RollNo;

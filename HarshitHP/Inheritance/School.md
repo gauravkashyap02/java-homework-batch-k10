@@ -1,12 +1,12 @@
-public class School {
- String schoolName = "Green Valley";
+     public class School {
+    String schoolName = "Green Valley";
 
     void showSchool(){
         System.out.println("School: " +schoolName);
     }
-}
-class Teacher extends School{
- String teacherName = "Mr.Sharma";
+    }
+    class Teacher extends School{
+    String teacherName = "Mr.Sharma";
 
     void showTeacherDetails(){
         showSchool();
@@ -18,4 +18,4 @@ class Teacher extends School{
 
         t.showTeacherDetails();
     }
-}
+    }

@@ -1,8 +1,8 @@
-public class College {
+    public class College {
     String CollegeName = "Techno insitute";
 
     }
-class Admission extends College{
+    class Admission extends College{
     String StudentName = "Harshit";
     String CourseName = "B.Tech";
 

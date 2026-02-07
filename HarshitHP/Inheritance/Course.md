@@ -1,17 +1,17 @@
-class Course {
-  String courseName;
-  Course(String cn){
-  courseName = cn;
-}
+    class Course {
+    String courseName;
+    Course(String cn){
+    courseName = cn;
+    }
 
      void showCourse(){
          System.out.println("Course Name: " +courseName);
      }
-}
+    }
 
-class EnrolledStudent extends Course{
-   String studentName;
-   int rollNo;
+    class EnrolledStudent extends Course{
+    String studentName;
+    int rollNo;
 
      EnrolledStudent(String courseName, String sn, int rn){
          super(courseName);
@@ -29,4 +29,4 @@ class EnrolledStudent extends Course{
         EnrolledStudent es = new EnrolledStudent("Java Programming","Harshit",10);
         es.showCourse();
     }
-}
+    }

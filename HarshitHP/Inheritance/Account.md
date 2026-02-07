@@ -1,5 +1,5 @@
-class Account {
-  double balance;
+    class Account {
+    double balance;
 
      Account(double bl){
          balance = bl;
@@ -7,10 +7,10 @@ class Account {
      void showBalance(){
          System.out.println("Balance: " +balance);
      }
-}
+    }
 
-class SavingAccount extends Account{
-  double interestRate;
+    class SavingAccount extends Account{
+     double interestRate;
 
      SavingAccount(double balance, double iRate){
          super(balance);
@@ -24,4 +24,4 @@ class SavingAccount extends Account{
          SavingAccount sa = new SavingAccount(1000,5);
          sa.showBalance();
      }
-}
+    }

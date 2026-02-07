@@ -1,7 +1,7 @@
-public class LibraryBook {
-String title;
-String author;
-boolean isAvailable;
+    public class LibraryBook {
+    String title;
+    String author;
+    boolean isAvailable;
 
     void setDetails(String tl, String ar){
         title = tl;

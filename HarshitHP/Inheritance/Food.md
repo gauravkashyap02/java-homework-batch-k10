@@ -1,11 +1,11 @@
-public class Food {
+    public class Food {
     String FoodName = "Gulab Jamun";
 
     void display(){
         System.out.println("Food Name: " +FoodName);
     }
-}
-class Dessert extends Food {
+    }
+    class Dessert extends Food {
     String SweetnessLevel = "High";
 
     void display(){
@@ -16,5 +16,5 @@ class Dessert extends Food {
     static void main(String[] args) {
         Dessert d = new Dessert();
         d.display();
+     }
     }
-}
