@@ -4,7 +4,7 @@
 
     System.out.println("Generic Vehicle");
         
-    } 
+     } 
 
     } 
 
@@ -22,7 +22,7 @@
 
      void displayInfo(){
          System.out.println("Bike: 2 Wheels");
-     }
+      }
 
      static void main(String[] args) {
          Vehicle v = new Vehicle();
@@ -33,6 +33,6 @@
 
          Vehicle b = new Bike();
          b.displayInfo();
-     }
+      }
 
     }
