@@ -1,22 +1,22 @@
-public class Book {
-  String title;
-  String Author;
-  Book(String tl, String ar){
-  title = tl;
-  Author = ar;
-}
+    public class Book {
+    String title;
+    String Author;
+    Book(String tl, String ar){
+    title = tl;
+    Author = ar;
+    }
 
     void showDetails(){
         System.out.println("Title: " +title);
         System.out.println("Author: " +Author);;
+     }
     }
-}
-class LibraryBook extends Book{
-  int shelfNo;
-  LibraryBook(String title, String Author, int sn){
-  super(title,Author);
-  shelfNo = sn;
-}
+    class LibraryBook extends Book{
+    int shelfNo;
+    LibraryBook(String title, String Author, int sn){
+    super(title,Author);
+    shelfNo = sn;
+    }
 
     void showDetails(){
         System.out.println("Title: " +title);
@@ -28,4 +28,4 @@ class LibraryBook extends Book{
         LibraryBook lb = new LibraryBook("Java Programming","John smith",5);
         lb.showDetails();
     }
-}
+    }

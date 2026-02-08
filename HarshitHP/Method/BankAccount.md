@@ -1,4 +1,4 @@
-public class BankAccount {
+    public class BankAccount {
 
     String HolderName;
     int AccNo;
