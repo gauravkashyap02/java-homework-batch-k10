@@ -1,6 +1,6 @@
-package PolyQuestion;
+    package PolyQuestion;
 
-public class Student {
+    public class Student {
 
     void show(String name, int age){
         System.out.println("Name is: "+ name + "and roll number is:  "+ age);
