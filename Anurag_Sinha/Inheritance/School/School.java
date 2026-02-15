@@ -1,4 +1,4 @@
-package Inheritance;
+package Inheritance.School;
 
 class School {
     String SchoolName="S.G.D";
@@ -12,6 +12,9 @@ class Teacher extends School{
         showSchool();
         System.out.println("Teacher Name:" +TeacherName);
     }
+}
+
+class Main{
     public static void main(String[] args) {
         Teacher t=new Teacher();
         t.showTeacherDetails();

@@ -1,4 +1,4 @@
-package Inheritance;
+package Inheritance.Employee;
 
 class Employee {
     String name="Anurag";
@@ -12,7 +12,9 @@ class Manager extends Employee{
         super.displayInfo();
         System.out.println("Department: "+department);
     }
+}
 
+class Main{
     public static void main(String[] args){
         Manager m=new Manager();
         m.displayInfo();

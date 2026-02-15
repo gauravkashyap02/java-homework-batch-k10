@@ -1,4 +1,4 @@
-package Inheritance;
+package Inheritance.Person;
 
 class Person {
     void ShowDetails(){
@@ -11,6 +11,9 @@ class Student extends Person {
         System.out.println("Student Details.");
     }
 
+}
+
+class Main{
     public static void main(String[] args) {
         Student s = new Student();
         s.ShowDetails();

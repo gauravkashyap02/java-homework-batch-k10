@@ -1,4 +1,4 @@
-package Inheritance;
+package Inheritance.Books;
 
 class Books {
     String title="Java";
@@ -15,7 +15,9 @@ class LibraryBook extends Books{
         super.showDetails();
         System.out.println("Self Number: "+selfNumber);
     }
+}
 
+class Main{
     public static void main(String[] args){
         LibraryBook book=new LibraryBook();
         book.showDetails();

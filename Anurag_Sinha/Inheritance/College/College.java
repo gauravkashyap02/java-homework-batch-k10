@@ -1,4 +1,4 @@
-package Inheritance;
+package Inheritance.College;
 
 class College {
     String collegename="T.Institute";
@@ -11,6 +11,9 @@ class Admission extends College{
         System.out.println("Student Name : "+studentname);
         System.out.println("Course : "+course);
     }
+}
+
+class Main{
     public static void main(String[] args){
         Admission a=new Admission();
         a.displayInfo();

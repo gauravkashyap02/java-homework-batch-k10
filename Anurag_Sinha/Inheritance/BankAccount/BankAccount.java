@@ -1,4 +1,4 @@
-package Inheritance;
+package Inheritance.BankAccount;
 
 class BankAccount {
     double initial=5000.00;
@@ -13,6 +13,9 @@ class SA extends BankAccount{
         System.out.println("Deposited: "+deposit);
         System.out.println("New Balance: "+(deposit+initial));
     }
+}
+
+class Main{
     public static void main(String[] args){
         SA a=new SA();
         a.deposit();

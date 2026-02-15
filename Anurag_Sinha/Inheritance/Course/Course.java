@@ -1,4 +1,4 @@
-package Inheritance;
+package Inheritance.Course;
 
 class Course {
     String CourseName="Inheritance";
@@ -15,6 +15,9 @@ class  EnrolledStudent extends Course{
         System.out.println("Student Name:"+StudentName);
         System.out.println("Roll Number:"+rollNumber);
     }
+}
+
+class Main{
     public static void main(String[] args){
         EnrolledStudent e=new EnrolledStudent();
         e.showCourse();

@@ -1,4 +1,4 @@
-package Inheritance;
+package Inheritance.Train;
 
 class Train {
     void run(){
@@ -9,6 +9,9 @@ class Metro extends Train{
     void run(){
         System.out.println(" Metro is running on an electric track");
     }
+}
+
+class Main{
     public static void main(){
         Metro m=new Metro();
         m.run();

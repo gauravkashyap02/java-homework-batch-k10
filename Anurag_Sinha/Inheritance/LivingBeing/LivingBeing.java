@@ -1,4 +1,4 @@
-package Inheritance;
+package Inheritance.LivingBeing;
 
 class LivingBeing {
     void breath(){
@@ -18,7 +18,9 @@ class Dogs extends Animals {
 
         System.out.println("Barking...");
     }
+}
 
+class Main{
     public static void main(){
         Dogs d=new Dogs();
         d.breath();

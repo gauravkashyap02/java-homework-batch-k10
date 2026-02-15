@@ -1,4 +1,4 @@
-package Inheritance;
+package Inheritance.Animal;
 
 class Animal {
     void makeSound(){
@@ -8,8 +8,13 @@ class Animal {
 }
 class Dog extends Animal{
     void makeSound(){
+
         System.out.println("Dog Barks!!");
     }
+}
+
+class Main{
+
     public static void main(String[] args) {
         Dog d = new Dog();
 

@@ -1,4 +1,4 @@
-package Inheritance;
+package Inheritance.animals;
 
 class animals {
     void eat(){
@@ -17,7 +17,9 @@ class Cat extends animals {
 
         System.out.println("Cat meows");
     }
+}
 
+class Main{
     public static void main() {
         Cat c = new Cat();
         c.eat();

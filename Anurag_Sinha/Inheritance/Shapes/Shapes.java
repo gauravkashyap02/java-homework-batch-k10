@@ -1,4 +1,4 @@
-package Inheritance;
+package Inheritance.Shapes;
 
 import java.util.*;
 
@@ -19,6 +19,9 @@ class Square extends Shapes{
         System.out.println("Perimeter of Square: "+(4*side));
 
     }
+}
+
+class Main{
     public static void main(){
         Square s=new Square();
         s.input();

@@ -1,4 +1,4 @@
-package Inheritance;
+package Inheritance.Students;
 
 import java.util.*;
 
@@ -21,10 +21,11 @@ class MarkSheet extends Students{
         super.display();
         System.out.println("Total Marks: 270");
     }
+}
 
+class Main{
     public static void main(String[] args){
         MarkSheet m = new MarkSheet();
         m.display();
     }
-
 }

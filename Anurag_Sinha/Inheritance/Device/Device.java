@@ -1,4 +1,4 @@
-package Inheritance;
+package Inheritance.Device;
 
 class Device {
     String devicename="Samsung";
@@ -12,6 +12,9 @@ class Mobile extends Device{
         super.showInfo();
         System.out.println("Device OS: "+os);
     }
+}
+
+class Main{
     public static void main(String[] args){
         Mobile m=new Mobile();
         m.showInfo();

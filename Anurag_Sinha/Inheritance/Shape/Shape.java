@@ -1,4 +1,4 @@
-package Inheritance;
+package Inheritance.Shape;
 
 import java.util.*;
 
@@ -27,7 +27,9 @@ class Rectangle extends Shape{
 
         System.out.println("Area Of Rectangle: "+area);
     }
+}
 
+class Main{
     public static void main(){
         Shape s = new Rectangle();
         s.area();

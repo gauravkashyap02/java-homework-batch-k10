@@ -1,4 +1,4 @@
-package Inheritance;
+package Inheritance.Food;
 
 class Food {
     String foodname="Gulab Jamun";
@@ -12,8 +12,13 @@ class Dessert extends Food{
         super.display();
         System.out.println("Sweetness Level: "+sweetnesslevel);
     }
+
+}
+
+class Main{
     public static void main(String[] args){
         Dessert d=new Dessert();
         d.display();
     }
 }
+
